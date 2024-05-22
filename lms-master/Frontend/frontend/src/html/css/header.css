@@ -1,0 +1,61 @@
+.header {
+    height: 80px;
+    background-color: #D4A6A6;
+    border-bottom: 2px solid black;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.left-area {
+    margin-top: 20px;
+}
+
+.text {
+    height: 75px;
+    width: 200px;
+    margin-left: 40px;
+    margin-top: -7px;
+}
+
+.middle-area {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    cursor: default;
+}
+
+.admin-label {
+    margin-right: 20px;
+    cursor: default;
+    font-size: 25px;
+}
+
+.academic-year {
+    margin-top: 15px;
+    cursor: default;
+}
+
+.right-area {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.notif-icon {
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+.profile-icon {
+    margin-right: 25px;
+    cursor: pointer;
+}

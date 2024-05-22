@@ -1,0 +1,33 @@
+.sidebar {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 80px;
+    width: 220px;
+    background-color: #D4A6A6;
+    z-index: 200;
+    padding-top: 80px;
+    border-right: 2px solid black;
+}
+
+.sidebar_obj {
+    width: 170px;
+    background-color: #D4A6A6;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    cursor: pointer;
+    margin: 20px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+
+.sidebar_obj:hover {
+    background-color: white;
+    transition: 0.2s;
+    border-color: black;
+    font-weight: bolder;
+}
