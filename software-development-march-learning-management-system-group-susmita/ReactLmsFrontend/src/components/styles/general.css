@@ -1,0 +1,11 @@
+p {
+    font-family: 'Nunito',sans-serif;
+}
+
+.main {
+    position: absolute;
+    left: 222px;
+    right: 0;
+    top: 82px;
+    bottom: 0;
+}

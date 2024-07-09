@@ -1,0 +1,97 @@
+.header {
+    height: 80px;
+    background-color: rgb(39, 39, 39);
+    border-bottom: 1px solid gray;
+
+    color: white;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    position: fixed;
+    top: 0;
+    left: 220px;
+    right: 0;
+    z-index: 100;
+}
+
+.left-area {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header_obj {
+    width: 150px;
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    cursor: pointer;
+
+    padding: 10px;
+    text-align: center;
+}
+
+.right-area {
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    padding: 8px;
+    margin: 8px;
+}
+
+.notif-icon {
+    height: 45px;
+    width: 45px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.notif-icon img {
+    height: 30px;
+    width: 30px;
+}
+
+
+.profile-icon {
+    height: 45px;
+    border: 1px solid white;
+    border-radius: 30px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+.profile {
+    height: 45px;
+    width: 45px;
+    padding: 8px;
+}
+
+.arrow-icon {
+    height: 40px;
+    width: 40px;
+    padding: 8px;
+}
+
+.profile-icon:hover {
+    box-shadow: 2px 2px 3px black;
+}
+
+.header_obj p:hover{
+    text-decoration: underline;
+    font-weight: 700;
+}

@@ -1,0 +1,76 @@
+.content {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: black;
+}
+
+.title {
+    margin: 8px;
+    font-size: 24px;
+}
+
+.students-display {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    column-gap: 32px;
+
+    margin: 16px;
+
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+}
+
+.students-display button:hover {
+    font-weight: bold;
+
+    box-shadow: 2px 2px 2px gray;
+}
+
+.add-student-btn {
+    background-color: #4cadd4;
+    border-radius: 25px;
+
+    width: auto;
+    height: 50px;
+
+}
+
+.edit-student-btn {
+    background-color: #4cadd4;
+    border-radius: 25px;
+
+    width: auto;
+    height: 50px;
+}
+
+.delete-student-btn {
+    background-color: #4cadd4;
+    border-radius: 25px;
+
+    width: auto;
+    height: 50px;
+}
+
+.table-container {
+    width: 100%;
+    padding: 8px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
